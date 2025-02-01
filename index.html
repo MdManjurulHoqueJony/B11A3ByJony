@@ -23,7 +23,7 @@
 </head>
 
 <body class="font-sora">
-    <header class="w-full bg-gradient-to-b from-white to-[#EFEBE3]">
+    <header class="w-full bg-gradient-to-b from-white to-[#EFEBE3] mb-[48px] lg:mb-[140px]">
         <nav class="p-4 mx-auto lg:px-36 lg:py-6">
             <div class="navbar bg-base-100">
                 <div class="navbar-start flex justify-between w-full">
@@ -33,11 +33,13 @@
                     <div class="dropdown relative flex justify-end">
                         <!-- Hamburger Icon -->
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#179800">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="#179800">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                    
+
                         <!-- Dropdown Menu -->
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 left-auto">
@@ -45,7 +47,7 @@
                             <li><a>Services</a></li>
                             <li><a>Contact us</a></li>
                         </ul>
-                    </div>                   
+                    </div>
                 </div>
                 <div class="navbar-center hidden lg:flex ms-[-572px]">
                     <ul class="menu menu-horizontal px-1">
@@ -65,13 +67,47 @@
         <hr class="box-border border-[0.5px] border-[rgb(23,152,0)] lg:hidden">
         <!-- Banner -->
         <section class="place-items-center">
-            <p class="text-3xl lg:text-6xl p-[16px] text-center">Freshness <span class="text-[#179800]">You Can<br> Count</span> On, Prices You’ll Love!</p>        
-            <p class="text-base lg:text-xl p-[16px] text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <p class="text-3xl lg:text-6xl p-[16px] text-center">Freshness <span class="text-[#179800]">You Can<br>
+                    Count</span> On, Prices You’ll Love!</p>
+            <p class="text-base lg:text-xl p-[16px] text-center">Shop your daily essentials at unbeatable prices. From
+                fresh produce to pantry staples, we’ve got you covered every day!</p>
             <img src="./images/hero-vegetables.png" alt="Vegetables" class="animate-pulse">
         </section>
     </header>
     <main>
-
+        <!-- Services -->
+        <section class="p-4 lg:px-36">
+            <p class="text-2xl lg:text-4xl text-[#179800]  mb-[32px] lg:mb-[48px]">Services</p>
+            <div class="flex gap-6 flex-col lg:flex-row">
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/service.png" alt="24/7 Services" class="rounded-full bg-white p-5 object-cover" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">24/7 Services</h2>
+                        <p">We are always available to assist you, anytime and anywhere!</p>
+                    </div>
+                </div>
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/delivery.png" alt="24/7 Services" class="rounded-full bg-white p-5 object-cover" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Fast Delivery</h2>
+                        <p">Get your orders delivered swiftly and on time, every time!</p>
+                    </div>
+                </div>
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/healthy.png" alt="24/7 Services" class="rounded-full bg-white p-5 object-cover" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Healthy Products</h2>
+                        <p">Enjoy fresh, high-quality products for a healthier lifestyle!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
